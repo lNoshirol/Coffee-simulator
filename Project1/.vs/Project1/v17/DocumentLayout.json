@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\TheGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\TheGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Drink.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateTwo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\PreparingState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\PreparingState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateTwo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateOne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\DrinkFactory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DrinkFactory.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateMachine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\TheGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\TheGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2F78CFC-E0BE-45CA-A11E-F91C33A7A1B8}|Project1\\Project1.vcxproj|solutionrelative:Project1\\StateMachine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PreparingState.cpp",
+              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\PreparingState.cpp",
+              "RelativeDocumentMoniker": "Project1\\PreparingState.cpp",
+              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\PreparingState.cpp",
+              "RelativeToolTip": "Project1\\PreparingState.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-25T08:58:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DrinkFactory.hpp",
+              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\DrinkFactory.hpp",
+              "RelativeDocumentMoniker": "Project1\\DrinkFactory.hpp",
+              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\DrinkFactory.hpp",
+              "RelativeToolTip": "Project1\\DrinkFactory.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T08:58:49.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Drink.hpp",
+              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
+              "RelativeDocumentMoniker": "Project1\\Drink.hpp",
+              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
+              "RelativeToolTip": "Project1\\Drink.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T08:56:53.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TheGame.cpp",
               "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\TheGame.cpp",
               "RelativeDocumentMoniker": "Project1\\TheGame.cpp",
@@ -55,58 +90,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StateTwo.h",
-              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.h",
-              "RelativeDocumentMoniker": "Project1\\StateTwo.h",
-              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.h",
-              "RelativeToolTip": "Project1\\StateTwo.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-21T09:54:10.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StateTwo.cpp",
-              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.cpp",
-              "RelativeDocumentMoniker": "Project1\\StateTwo.cpp",
-              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateTwo.cpp",
-              "RelativeToolTip": "Project1\\StateTwo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-21T09:53:57.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StateOne.h",
-              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.h",
-              "RelativeDocumentMoniker": "Project1\\StateOne.h",
-              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.h",
-              "RelativeToolTip": "Project1\\StateOne.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-21T09:53:17.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StateOne.cpp",
-              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.cpp",
-              "RelativeDocumentMoniker": "Project1\\StateOne.cpp",
-              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateOne.cpp",
-              "RelativeToolTip": "Project1\\StateOne.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-21T09:53:04.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "StateMachine.h",
               "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateMachine.h",
@@ -115,12 +98,11 @@
               "RelativeToolTip": "Project1\\StateMachine.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-21T09:51:27.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T09:51:27.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "StateMachine.cpp",
               "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\StateMachine.cpp",
               "RelativeDocumentMoniker": "Project1\\StateMachine.cpp",
