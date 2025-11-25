@@ -11,6 +11,27 @@ public:
 class PumpkinLatte : public Drink {
 public:
     std::vector<std::string> getSteps() const override {
-        return { "cafe", "lait", "epices" };
+        return { "cafe", "lait", "epices", "pumpkin" };
     }
 };
+
+class Tea : public Drink {
+public:
+    std::vector<std::string> getSteps() const override {
+        return { "eau", "herbe" };
+    }
+};
+
+class VoidCoffe : public Drink {
+public:
+    std::vector<std::string> getSteps() const override {
+        return { "" };
+    }
+};
+
+/*class VoidCoffe : public Drink {
+public:
+    std::vector<std::string> getSteps() const override {
+        return { "" };
+    }
+};*/
