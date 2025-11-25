@@ -6,11 +6,17 @@
 #include "DrinkFactory.hpp"
 #include "Drink.hpp"
 #include "GameManager.hpp"
+#include <vector>
 
 void PreparingState::update(GameManager& game) {
+
+    std::vector<Drink*> CofeList;
+
     std::cout << "\nPréparation du Pumpkin Latte\n";
 
     Drink* drink = DrinkFactory::create("pumpkin");
+    CofeList.push_back(drink);
+
     std::string input;
 
     for (auto& step : drink->getSteps()) {
