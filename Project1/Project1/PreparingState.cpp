@@ -7,15 +7,28 @@
 #include "Drink.hpp"
 #include "GameManager.hpp"
 #include <vector>
+#include <random>
 
 void PreparingState::update(GameManager& game) {
 
-    std::vector<Drink*> CofeList;
+    std::vector<Drink*> CofeList = { 
+        DrinkFactory::create("pumpkin"), 
+        DrinkFactory::create("GamerCoffe")
+    };
+
+    
+    
+    Drink* drink;
+
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dist(0, CofeList.size());
+    int randInt = dist(gen);
+
 
     std::cout << "\nPréparation du Pumpkin Latte\n";
 
-    Drink* drink = DrinkFactory::create("pumpkin");
-    CofeList.push_back(drink);
+    drink = CofeList[randInt];
 
     std::string input;
 
