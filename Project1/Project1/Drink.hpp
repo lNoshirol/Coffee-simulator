@@ -143,7 +143,7 @@ public:
 class Prozaczopixane : public Drink {
 public:
     std::vector<std::string> getSteps() const override {
-        return { "Antidépresseur", "anxiolitique", "Calmant", "Somnifère", "ca suffit pas le dolipranne" };
+        return { "Antidepresseur", "anxiolitique", "Calmant", "Somnifere", "ca suffit pas le dolipranne" };
     }
 
     int getPrice() const override {
@@ -191,7 +191,7 @@ public:
 class CoffeeForBeach : public Drink {
 public:
     std::vector<std::string> getSteps() const override {
-        return { "Sable fin de la tranche sur mer ramassé à 21h19 et 45 secondes à 5 mètres des vagues lors d'une marée descendante", "sel"};
+        return { "Sable fin de la tranche sur mer ramasse a 21h19 et 45 secondes a 5 metres des vagues lors d'une maree descendante", "sel"};
     }
 
     int getPrice() const override {

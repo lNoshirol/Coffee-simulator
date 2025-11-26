@@ -28,18 +28,17 @@ void PreparingState::update(GameManager& game) {
 
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dist(0, DrinkFactory::create().size());
+    std::uniform_int_distribution<> dist(0, DrinkFactory::create("7").size());
     int randInt = dist(gen);
 
+    drink = DrinkFactory::create("4")[randInt];
 
-    std::cout << "\nPréparation du Pumpkin Latte\n";
-
-    drink = CofeList[randInt];
+    std::cout << "\nPréparation du \n" << drink->getName();
 
     std::string input;
 
     for (auto& step : drink->getSteps()) {
-        std::cout << "Étape" << step << "\n";
+        std::cout << "Etape " << step << "\n";
         std::cout << "> ";
         std::getline(std::cin, input);
 
