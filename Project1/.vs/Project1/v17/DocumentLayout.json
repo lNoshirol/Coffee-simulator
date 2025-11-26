@@ -48,9 +48,22 @@
               "RelativeDocumentMoniker": "Project1\\PreparingState.cpp",
               "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\PreparingState.cpp",
               "RelativeToolTip": "Project1\\PreparingState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-25T08:58:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Drink.hpp",
+              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
+              "RelativeDocumentMoniker": "Project1\\Drink.hpp",
+              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
+              "RelativeToolTip": "Project1\\Drink.hpp",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T08:56:53.016Z",
               "EditorCaption": ""
             },
             {
@@ -61,7 +74,7 @@
               "RelativeDocumentMoniker": "Project1\\DrinkFactory.cpp",
               "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\DrinkFactory.cpp",
               "RelativeToolTip": "Project1\\DrinkFactory.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-25T10:35:22.785Z",
               "EditorCaption": ""
@@ -74,22 +87,9 @@
               "RelativeDocumentMoniker": "Project1\\DrinkFactory.hpp",
               "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\DrinkFactory.hpp",
               "RelativeToolTip": "Project1\\DrinkFactory.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-25T08:58:49.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Drink.hpp",
-              "DocumentMoniker": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
-              "RelativeDocumentMoniker": "Project1\\Drink.hpp",
-              "ToolTip": "C:\\Users\\lucas\\Coffee-simulator\\Project1\\Project1\\Drink.hpp",
-              "RelativeToolTip": "Project1\\Drink.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-25T08:56:53.016Z",
               "EditorCaption": ""
             },
             {

@@ -11,10 +11,16 @@
 
 void PreparingState::update(GameManager& game) {
 
-    std::vector<Drink*> CofeList = { 
+    /*std::vector<Drink*> CofeList = { 
         DrinkFactory::create("pumpkin"), 
+        DrinkFactory::create("GamerCoffe"),
+        DrinkFactory::create("GamerCoffe"),
+        DrinkFactory::create("GamerCoffe"),
+        DrinkFactory::create("GamerCoffe"),
+        DrinkFactory::create("GamerCoffe"),
+        DrinkFactory::create("GamerCoffe"),
         DrinkFactory::create("GamerCoffe")
-    };
+    };*/
 
     
     
@@ -22,7 +28,7 @@ void PreparingState::update(GameManager& game) {
 
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dist(0, CofeList.size());
+    std::uniform_int_distribution<> dist(0, DrinkFactory::create().size());
     int randInt = dist(gen);
 
 

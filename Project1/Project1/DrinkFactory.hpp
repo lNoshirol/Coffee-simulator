@@ -4,5 +4,5 @@
 
 class DrinkFactory {
 public:
-    static Drink* create(const std::string& type);
+    static std::vector<Drink*> create(const std::string& type);
 };

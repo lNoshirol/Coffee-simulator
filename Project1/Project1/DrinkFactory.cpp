@@ -1,7 +1,23 @@
 #include "DrinkFactory.hpp"
+#include <vector>
 
-Drink* DrinkFactory::create(const std::string& type) {
-    if (type == "pumpkin") return new PumpkinLatte();
-    else if (type == "GamerCoffe") return new GamerCoffe();
-    return nullptr;
+std::vector<Drink*> DrinkFactory::create(const std::string& type) {
+    std::vector<Drink*> DrinkLiist = { 
+        new PumpkinLatte(), 
+        new Tea(), 
+        new VoidCoffee(), 
+        new Coffee(), 
+        new CiaoKombucha(), 
+        new BubbleTea(), 
+        new HotChocolate(), 
+        new GamerCoffee(), 
+        new Prozaczopixane(), 
+        new WarCoffee(), 
+        new IQCoffee(),
+        new CoffeeForBeach(),
+        new ClashRoyalCoffee(),
+        new McdoCoffee(),
+        new PiscineCoffee()
+    };
+    return DrinkLiist;
 }
