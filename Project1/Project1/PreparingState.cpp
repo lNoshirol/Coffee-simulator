@@ -46,8 +46,10 @@ void PreparingState::update(GameManager& game) {
         }
     }
 
-    std::cout << "Boisson réussie ! +10 points\n";
-    game.addScore(10);
+    std::cout << "Boisson réussie ! +";
+    std::cout << drink->getPrice();
+    std::cout << " argent\n";
+    game.addScore(drink->getPrice());
     game.reduceGuest(1);
 
     delete drink;
