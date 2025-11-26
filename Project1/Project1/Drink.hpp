@@ -5,6 +5,8 @@
 class Drink {
 public:
     virtual ~Drink() = default;
+    //virtual std::string getId() const = 0;
+    //virtual std::string getName() const = 0;
     virtual std::vector<std::string> getSteps() const = 0;
     virtual int getPrice() const = 0;
     virtual std::string getName() const = 0;
@@ -93,7 +95,7 @@ public:
 class BubbleTea : public Drink {
 public:
     std::vector<std::string> getSteps() const override {
-        return { "perle de tapioca", "the", "lait", "sucre" };
+        return { "perles de tapioca", "the", "lait", "sucre" };
     }
 
     int getPrice() const override {
