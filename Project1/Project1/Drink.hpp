@@ -1,25 +1,24 @@
 #pragma once
 #include <vector>
 #include <string>
+#include "Ingredient.hpp"
 
 class Drink {
 public:
     virtual ~Drink() = default;
-    //virtual std::string getId() const = 0;
-    //virtual std::string getName() const = 0;
-    virtual std::vector<std::string> getSteps() const = 0;
+    virtual std::vector<Ingredient> getSteps() const = 0;
     virtual int getPrice() const = 0;
     virtual std::string getName() const = 0;
 };
 
 class PumpkinLatte : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "cafe", "lait", "epices", "pumpkin" };
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Cafe, Ingredient::Lait, Ingredient::Epices, Ingredient::Citrouille };
     }
 
     int getPrice() const override {
-        return 5;
+        return 10;
     }
 
     std::string getName() const override 
@@ -30,12 +29,12 @@ public:
 
 class Tea : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "eau", "herbe" };
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Eau, Ingredient::The };
     }
 
     int getPrice() const override {
-        return 1;
+        return 3;
     }
 
     std::string getName() const override
@@ -44,30 +43,14 @@ public:
     }
 };
 
-class VoidCoffee : public Drink {
-public:
-    std::vector<std::string> getSteps() const override {
-        return { "" };
-    }
-
-    int getPrice() const override {
-        return 2;
-    }
-
-    std::string getName() const override
-    {
-        return "Void Coffee";
-    }
-};
-
 class Coffee : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "cafe", "eau" };
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Cafe, Ingredient::Eau };
     }
 
     int getPrice() const override {
-        return 3;
+        return 5;
     }
 
     std::string getName() const override
@@ -78,8 +61,8 @@ public:
 
 class CiaoKombucha : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "eau", "sucre", "the", "kombucha"};
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Eau, Ingredient::Sucre, Ingredient::The, Ingredient::Kombucha};
     }
 
     int getPrice() const override {
@@ -94,12 +77,12 @@ public:
 
 class BubbleTea : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "perles de tapioca", "the", "lait", "sucre" };
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Tapioca, Ingredient::The, Ingredient::Lait, Ingredient::Sucre };
     }
 
     int getPrice() const override {
-        return 10;
+        return 12;
     }
 
     std::string getName() const override
@@ -110,17 +93,49 @@ public:
 
 class HotChocolate : public Drink {
 public:
-    std::vector<std::string> getSteps() const override {
-        return { "lait", "chocolat", "sucre"};
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Lait, Ingredient::Chocolat, Ingredient::Chantilly};
     }
 
     int getPrice() const override {
-        return 4;
+        return 6;
     }
 
     std::string getName() const override
     {
         return "Hot CHocolate";
+    }
+};
+
+class Chocolatte : public Drink {
+public:
+    std::vector<Ingredient> getSteps() const override {
+        return { Ingredient::Cafe ,Ingredient::Lait, Ingredient::Chocolat, Ingredient::Sucre };
+    }
+
+    int getPrice() const override {
+        return 8;
+    }
+
+    std::string getName() const override
+    {
+        return "Choco Latte";
+    }
+};
+
+/*class VoidCoffee : public Drink {
+public:
+    std::vector<Ingredient> getSteps() const override {
+        return { };
+    }
+
+    int getPrice() const override {
+        return 2;
+    }
+
+    std::string getName() const override
+    {
+        return "Void Coffee";
     }
 };
 
@@ -250,4 +265,4 @@ public:
     {
         return "Piscine Coffee";
     }
-};
+};*/

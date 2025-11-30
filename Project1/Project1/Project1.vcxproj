@@ -127,9 +127,7 @@
     <ClCompile Include="EndState.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="PreparingState.cpp" />
-    <ClCompile Include="StateMachine.cpp" />
-    <ClCompile Include="StateOne.cpp" />
-    <ClCompile Include="StateTwo.cpp" />
+    <ClCompile Include="Shop.cpp" />
     <ClCompile Include="TheGame.cpp" />
     <ClCompile Include="WaitingState.cpp" />
   </ItemGroup>
@@ -138,11 +136,10 @@
     <ClInclude Include="DrinkFactory.hpp" />
     <ClInclude Include="EndState.hpp" />
     <ClInclude Include="GameManager.hpp" />
+    <ClInclude Include="Ingredient.hpp" />
     <ClInclude Include="PreparingState.hpp" />
+    <ClInclude Include="Shop.hpp" />
     <ClInclude Include="State.hpp" />
-    <ClInclude Include="StateMachine.h" />
-    <ClInclude Include="StateOne.h" />
-    <ClInclude Include="StateTwo.h" />
     <ClInclude Include="WaitingState.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

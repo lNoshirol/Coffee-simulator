@@ -1,9 +1,9 @@
 ﻿  DrinkFactory.cpp
   PreparingState.cpp
-C:\Users\lucas\Coffee-simulator\Project1\Project1\PreparingState.cpp(31,75): warning C4267: 'argument' : conversion de 'size_t' en '_Ty', perte possible de données
-C:\Users\lucas\Coffee-simulator\Project1\Project1\PreparingState.cpp(31,75): warning C4267:         with
-C:\Users\lucas\Coffee-simulator\Project1\Project1\PreparingState.cpp(31,75): warning C4267:         [
-C:\Users\lucas\Coffee-simulator\Project1\Project1\PreparingState.cpp(31,75): warning C4267:             _Ty=int
-C:\Users\lucas\Coffee-simulator\Project1\Project1\PreparingState.cpp(31,75): warning C4267:         ]
+C:\Users\spect\Desktop\CoffeeSimulator\Coffee-simulator\Project1\Project1\PreparingState.cpp(26,59): warning C4267: 'argument' : conversion de 'size_t' en '_Ty', perte possible de données
+          with
+          [
+              _Ty=int
+          ]
   Génération de code en cours...
-  Project1.vcxproj -> C:\Users\lucas\Coffee-simulator\Project1\x64\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\spect\Desktop\CoffeeSimulator\Coffee-simulator\Project1\x64\Debug\Project1.exe
