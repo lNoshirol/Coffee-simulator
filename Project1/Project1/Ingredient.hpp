@@ -15,6 +15,7 @@ enum class Ingredient {
     Tapioca,
 };
 
+// Convertis les Ingrédients en string
 inline std::string ingredientToString(Ingredient ing) {
     switch (ing) {
     case Ingredient::Cafe: return "cafe";
@@ -32,6 +33,7 @@ inline std::string ingredientToString(Ingredient ing) {
     return "";
 }
 
+// Convertis les string d'ingrédient en Ingrédient
 inline bool stringToIngredient(const std::string& s, Ingredient& out) {
 
     if (s == "cafe") { out = Ingredient::Cafe; return true; }
@@ -49,6 +51,7 @@ inline bool stringToIngredient(const std::string& s, Ingredient& out) {
     return false;
 }
 
+// Definis et permet de savoir combien coûte chaque ingrédient
 inline int ingredientPrice(Ingredient ing) {
     switch (ing) {
     case Ingredient::Cafe: return 2;

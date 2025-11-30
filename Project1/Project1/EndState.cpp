@@ -14,12 +14,14 @@ void EndState::update(GameManager& game)
         std::string input;
         std::getline(std::cin, input);
 
+        // Fait passer au jour suivant
         if (input == "continue") {
             game.addGuest(6);
             game.addDay();
             game.changeState(std::make_unique<WaitingState>());
             break;
         }
+        // Retourne au Menu
         else if (input == "menu") {
             std::cout << "\nMerci d'avoir joue\n\n\n\n\n\n\n\n\n\n";
             game.changeState(nullptr);

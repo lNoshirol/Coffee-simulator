@@ -123,6 +123,7 @@ public:
     }
 };
 
+//On peut créer tout genre de rectte tant que ça utilise les Ingrédient défini (donc pas ceux là pour le moment)
 /*class VoidCoffee : public Drink {
 public:
     std::vector<Ingredient> getSteps() const override {

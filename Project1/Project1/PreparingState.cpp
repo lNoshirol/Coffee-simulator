@@ -41,7 +41,7 @@ void PreparingState::update(GameManager& game)
 
         std::getline(std::cin, input);
 
-        // Shop
+        // Ouvre le shop
         if (input == "shop")
         {
             Shop::open(game);
@@ -67,7 +67,7 @@ void PreparingState::update(GameManager& game)
         }
 
 
-        // Conversion en Ingredient
+        // Convertion en ingrédient
         Ingredient given;
         if (!stringToIngredient(input, given)) {
             std::cout << "Entree inconnue\nRecette ratee\n";
